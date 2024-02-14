@@ -1,0 +1,18 @@
+Subject: [PATCH] suma y resta calculadora
+---
+Index: calculator.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/calculator.py b/calculator.py
+new file mode 100644
+--- /dev/null	(revision 5c259bae98b4fb018389b0fbf9a0c31e2fa60c26)
++++ b/calculator.py	(revision 5c259bae98b4fb018389b0fbf9a0c31e2fa60c26)
+@@ -0,0 +1,6 @@
++def add(num_1, num_2):
++    return num_1+ num_2
++
++
++def subtract(num_1, num_2):
++    return num_1 - num_2
